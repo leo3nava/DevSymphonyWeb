@@ -1,0 +1,10 @@
+
+input[type=text] {
+    width:20%;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
+
+.ui-jqgrid table { border-collapse: separate; }
+#paginadorPersonas{ width: auto;  height: auto }

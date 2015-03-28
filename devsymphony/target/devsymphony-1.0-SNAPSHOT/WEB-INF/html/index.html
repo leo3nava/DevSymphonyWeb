@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/resources/css/utils/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <link href="/resources/css/utils/ui.jqgrid.css" rel="stylesheet" type="text/css"/>
+        <link href="/resources/css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+        <div>AGREGAR</div>
+        
+        <form action="#" method="post">
+            ID <input type="text" id="id"/>
+            Nombre: <input type="text" id="nombre"/>
+            Apellido: <input type="text" id="apellido"/>
+            Direccion <input type="text" id="direccion"/>
+            <input type="button" id="agregar" value="AGREGAR"/>
+            <input type="button" id="consultar" value="CONSULTAR"/>
+        </form>
+        
+        <div id="personasGridContainer">
+            <div>CONSULTA DE PERSONAS</div>
+            <table id="personasGrid"></table>
+            <div id="paginadorPersonas"></div>
+        </div>
+        
+        <script type="text/javascript" src="/resources/js/utils/jquery-1.11.1.js" ></script>
+        <script type="text/javascript" src="/resources/js/utils/i18n/grid.locale-en.js"></script>
+        <script type="text/javascript" src="/resources/js/utils/jquery.jqGrid.js" ></script>
+        <script type="text/javascript" src="/resources/js/utils/ui/1.11.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="/resources/js/index.js" ></script>
+        
+        
+        
+    
+</html>
