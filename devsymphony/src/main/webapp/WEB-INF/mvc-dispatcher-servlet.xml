@@ -16,7 +16,7 @@
     <context:component-scan base-package="com.devsymphony.web" />
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
-            <value>/WEB-INF/html/</value>
+            <value>/WEB-INF/</value>
         </property>
         <property name="suffix">
             <value>.html</value> 

@@ -23,7 +23,7 @@ public class HomeController {
     @RequestMapping(value = "/incializar")
     public String incializar() {
         System.out.println("Entro a inicializar");
-        return "index";
+        return "html/index";
     }
 
 }
