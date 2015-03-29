@@ -20,10 +20,10 @@ public class HomeController {
         System.out.println("Entro a controller");
     }
 
-    @RequestMapping(value = "/incializar")
+    @RequestMapping(value = "/inicializar")
     public String incializar() {
         System.out.println("Entro a inicializar");
-        return "html/index";
+        return "html/principal";
     }
 
 }
