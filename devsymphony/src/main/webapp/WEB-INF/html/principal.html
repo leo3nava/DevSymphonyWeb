@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <title>Dev Symphony</title>
+        <link href="/resources/css/miestilo.css" rel="stylesheet" type="text/css">
+        <link href="/resources/css/utils/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Eduardosco</h1>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a>Principal</a></li>
+                <li><a>Nose</a></li>
+                <li><a>Sign In/Register</a></li>
+                <li><a>Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="contenido">
+            <div class="doble">
+            <header class="headercontenido">
+                <h2>Iniciar Sesión</h2>
+            </header>
+            <form action="#" method="post">
+                <p class="formulario">Nombre de Usuario:</p><input type="text" id="username">
+                <p class="formulario">Contraseña: </p><input type="password" id="password"/><br>
+                <input type="button" id="login" value = "Iniciar Sesión"/>
+            </form>
+            </div>
+            <div class="doble">
+                <header>
+                    <h2>Registrate</h2>
+                </header>
+                <form action="#" method="post">
+                    <p class="formulario">Nombre de Usuario</p><input type="text" id="user">
+                    <p class="formulario">Dirección de correo electrónico</p><input type="text" id="email">
+                    <p class="formulario">Contraseña: </p><input type="password" id="pass" class="inputpassequal"/><img src="/resources/imagenes/iconos/check.png" /><br>
+                    <p class="formulario">Volver a escribir la contraseña: </p><input type="password" id="pass2" class="inputpassequal"/><br>
+                    <input type="button" id="registrar" value = "Registrar"/>
+                </form>
+            </div>
+        </div>
+        <footer>
+            Derechos Reservados &copy; 2010-2011
+        </footer>
+        <script type="text/javascript" src="/resources/js/utils/jquery-1.11.1.js" ></script>
+        <script type="text/javascript" src="/resources/js/signon.js" ></script>
+    </body>
